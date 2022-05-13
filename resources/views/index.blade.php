@@ -71,7 +71,7 @@
                     </div>
                     <div class="my-2">
                         <label for="avatar">Select Avatar</label>
-                        <input type="file" name="avatar" class="form-control" required>
+                        <input type="file" name="avatar" class="form-control" accept="image/*" required>
                     </div>
                 </div>
                 <div class="modal-footer">
@@ -124,7 +124,7 @@
                     </div>
                     <div class="my-2">
                         <label for="avatar">Select Avatar</label>
-                        <input type="file" name="avatar" class="form-control">
+                        <input type="file" name="avatar" class="form-control" accept="image/*">
                     </div>
                     <div class="mt-2" id="avatar">
 
